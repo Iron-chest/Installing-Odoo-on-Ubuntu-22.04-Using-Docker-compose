@@ -120,7 +120,9 @@ volumes:
 openssl rand -base64 30
 ```
 9. Start the Odoo and postgres containers with the docker-compose command
-``` docker-compose up -d
+``` 
+docker-compose up -d
+
 ```
 # STEP 5: ACCESS ODOO ON YOUR BROWSER
 1. Access Odoo UI from the http://ipaddress:8069

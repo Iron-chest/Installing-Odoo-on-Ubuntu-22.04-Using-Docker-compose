@@ -1,0 +1,20 @@
+version: "3.7"
+services:
+  odoo:
+    image: odoo:17.0
+    env_file: .env
+    depends_on:
+      - postgres
+    ports:
+      - "8069:8069"
+    volumes:
+      - odoo-web-data:/var/lib/odoo
+  postgres:
+    image: postgres:15
+    env_file: .env
+    volumes:
+      - db:/var/lib/postgresql/data/pgdata
+
+volumes:
+  odoo-web-data:
+  db:

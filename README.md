@@ -12,7 +12,8 @@ sudo vim /etc/hostname
 ```
 sudo reboot
 ```
-4. Create a docker.sh file to automate the installation of docker
+## STEP 2: INSTALLING DOCKER 
+1. Create a docker.sh file to automate the installation of docker
 ```sudo vim docker.sh```
    And paste this commands
 ```
@@ -32,9 +33,16 @@ sudo reboot
     sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
     sudo docker run hello-world
 ```
-
+2. Make the docker.sh script executable
+```
 sudo chmod +x docker.sh
-./docker.sh
+
+```
+3. Run the docker.sh script
+```
+./docker.sh 
+
+```
 docker --version
 sudo vim docker-compose.sh
     

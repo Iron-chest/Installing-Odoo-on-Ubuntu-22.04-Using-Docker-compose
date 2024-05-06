@@ -39,10 +39,9 @@ sudo chmod +x docker.sh
 
 ```
 3. Run the docker.sh script
-```
-./docker.sh 
 
-```
+    ./docker.sh 
+
 docker --version
 sudo vim docker-compose.sh
     

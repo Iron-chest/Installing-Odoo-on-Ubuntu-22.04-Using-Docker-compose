@@ -134,6 +134,8 @@ docker-compose up -d
 password: jxyp-jfpa-75t5 -->
 
 2. To stop the Odoo and postgres containers with docker-compose command
-``` docker-compose stop
+``` 
+docker-compose stop
+
 ```
 

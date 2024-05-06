@@ -66,7 +66,9 @@ sudo chmod +x docker-compose.sh
 docker-compose -v
 ```
 6. Run this command to allow sudo privileges for the current user (ubuntu)
-``` sudo chmod 666 /var/run/docker.sock
+``` 
+sudo chmod 666 /var/run/docker.sock
+
 ```
 # STEP 4: INSTALLING ODOO AND POSTGRES USING DOCKER-COMPOSE
 1. Create a directory named odoo and change dir to odoo
